@@ -19,7 +19,7 @@ BASE_URL = "https://api.pipecdn.app/api"
 
 # 时间间隔配置
 HEARTBEAT_INTERVAL = 300  # 5分钟 心跳时间间隔
-TEST_INTERVAL = 30 * 60  # 30分钟 测试时间间隔
+TEST_INTERVAL = 5  # 30分钟测试时间间隔
 RETRY_DELAY = 5  # 重试延迟（秒） 重试延迟
 import os
 
